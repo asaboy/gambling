@@ -1,0 +1,55 @@
+{
+  "name": "gambling",
+  "version": "0.0.0",
+  "description": "Sports Gambling Bet Tracker",
+  "homepage": "",
+  "author": {
+    "name": "Asa Boy",
+    "email": "boy.asa@gmail.com",
+    "url": "http://www.variousnefariousness.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "gambling",
+    "sports",
+    "bet",
+    "betting",
+    "wager",
+    "sport",
+    "nfl",
+    "ncaa",
+    "nhl",
+    "mlb",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "bet",
+        "title": "Create Bet/Parlay Leg 1",
+        "width": 4,
+        "file": "bet.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1280,
+        "height": 720,
+        "singleInstance": true
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "js-tabs": "^1.0.0"
+  }
+}
